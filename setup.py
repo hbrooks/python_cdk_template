@@ -19,12 +19,14 @@ setuptools.setup(
     packages=setuptools.find_packages(where="python_cdk_template"),
 
     install_requires=[
-        "aws-cdk.core==1.70.0",
-        "aws-cdk.aws_iam==1.70.0",
-        "aws-cdk.aws_sqs==1.70.0",
-        "aws-cdk.aws_sns==1.70.0",
-        "aws-cdk.aws_sns_subscriptions==1.70.0",
-        "aws-cdk.aws_s3==1.70.0",
+        "aws-cdk.core==1.86.0",
+        "aws-cdk.aws-ecr==1.86.0",
+        "aws-cdk.aws_iam==1.86.0",
+        "aws-cdk.aws_sqs==1.86.0",
+        "aws-cdk.aws_sns==1.86.0",
+        "aws-cdk.aws_sns_subscriptions==1.86.0",
+        "aws-cdk.aws_s3==1.86.0",
+        "aws-cdk.aws-lambda==1.86.0",
     ],
 
     python_requires=">=3.6",
