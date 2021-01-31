@@ -2,10 +2,10 @@
 
 from aws_cdk import core
 
-from python_cdk_template.python_cdk_template_stack import PythonCdkTemplateStack
+from cdk.stack import ExampleStack
 
 
 app = core.App()
-PythonCdkTemplateStack(app, "python-cdk-template", env={'region': 'us-east-1'})
+ExampleStack(app, "MyExampleStack", env={'region': 'us-east-1'})
 
 app.synth()
